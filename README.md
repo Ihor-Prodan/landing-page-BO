@@ -14,7 +14,6 @@ Variables: Allow storing colors, fonts, and other styles in one place, making th
 Nesting: Allows writing styles in a hierarchical structure that reflects the HTML structure, making the code cleaner and more understandable.
 Mixins: Allow creating reusable style blocks, reducing the amount of repetitive code.
 Imports: Allow splitting CSS into smaller files, making organization and style maintenance easier.
-JavaScript
 JavaScript is used to add interactivity and dynamic behavior to this landing page. The main functionalities include:
 
 Event handling: JavaScript is used to handle clicks on buttons, navigation elements, and other interactive elements.
