@@ -49,6 +49,7 @@
     color: $content-text-color;
     background-image: url(../logo/icon-burger-menu-4x.png);
     cursor: pointer;
+    transition: transform 0.6s ease;
 
     &:hover {
       background-image: url(../logo/Icon-Burger-menu-hover-4x.png);
@@ -60,6 +61,7 @@
     color: $content-text-color;
     background-image: url(../logo/Icon-Close-4x.png);
     cursor: pointer;
+    transition: transform 0.6s ease;
 
     @include hover(transform, scale(1.2));
   }
@@ -71,6 +73,7 @@
     width: 152px;
     height: 16px;
     color: $content-text-color;
+    transition: transform 0.6s ease;
 
     @include hover(transform, scale(1.2));
 

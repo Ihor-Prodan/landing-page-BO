@@ -16,10 +16,13 @@
     left: 0;
 
     opacity: 0;
+    transform: translateY(-100%);
     pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 
     &:target {
       opacity: 1;
+      transform: translateY(0);
       pointer-events: all;
     }
   }
@@ -28,4 +31,3 @@
     overflow: hidden;
   }
 }
-
